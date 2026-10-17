@@ -1,0 +1,1 @@
+Pon aquí las capturas de tus proyectos y referencia la ruta imagenes/nombre.png desde el editor.

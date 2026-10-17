@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08111f">
+  <meta name="description" content="Portafolio de Hugo Prieto Castro con certificados, habilidades y proyectos de desarrollo de aplicaciones.">
+  <title>Portafolio | Hugo Prieto Castro</title>
+  <link rel="icon" href="favicon-hugo.png" type="image/png">
+  <link rel="stylesheet" href="estilos.css">
+  <script src="contenido.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <div class="bg-orb orb-1" aria-hidden="true"></div>
+  <div class="bg-orb orb-2" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <div class="announcement"><span class="live-dot"></span> PORTAFOLIO INTERACTIVO · DESARROLLO · FORMACIÓN · CERTIFICACIONES</div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Volver al inicio">
+        <span class="brand-symbol">&lt;/&gt;</span>
+        <span id="brand-name">Tu nombre<span class="brand-period">.</span></span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      <nav id="main-nav" class="nav" aria-label="Navegación principal">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#certificados">Certificados</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#contacto" class="nav-contact">Contacto ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-mark"></span> HUGO PRIETO CASTRO · PORTAFOLIO</p>
+          <h1 id="hero-title">Aprendiendo, desarrollando y creando <em>soluciones digitales.</em></h1>
+          <p class="hero-description" id="hero-description">Espacio profesional para mostrar mi formación, mis habilidades técnicas y los proyectos que iré desarrollando como programador.</p>
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#certificados">Ver certificados ↘</a>
+            <a class="button button-secondary" href="#proyectos">Explorar proyectos ↗</a>
+          </div>
+          <div id="hero-featured-project" class="hero-spotlight"></div>
+          <div class="hero-meta">
+            <span class="status-indicator"><span></span> Perfil en evolución continua</span>
+            <span class="hero-location" id="hero-location"></span>
+          </div>
+        </div>
+
+        <div class="hero-panel reveal delay-1">
+          <div class="panel-glow"></div>
+          <div class="profile-shell">
+            <div class="mini-label">PERFIL ACTIVO</div>
+            <h2 id="hero-name-panel">Hugo Prieto Castro</h2>
+            <p id="hero-role-panel">Desarrollo de aplicaciones</p>
+            <div class="focus-tags">
+              <span>Java</span>
+              <span>SQL</span>
+              <span>Python</span>
+              <span>JavaScript</span>
+              <span>Redes</span>
+            </div>
+          </div>
+          <div class="terminal-card">
+            <div class="terminal-head">
+              <span class="dots"><i></i><i></i><i></i></span>
+              <strong>status.log</strong>
+            </div>
+            <div class="terminal-body">
+              <p><span class="token-purple">const</span> candidate = {</p>
+              <p><span class="indent"></span>name: <span class="token-green">'Hugo Prieto Castro'</span>,</p>
+              <p><span class="indent"></span>mindset: <span class="token-green">'aprendizaje continuo'</span>,</p>
+              <p><span class="indent"></span>focus: <span class="token-green">'desarrollo de software'</span>,</p>
+              <p><span class="indent"></span>certifications: <span class="token-blue" id="code-cert-count">0</span>,</p>
+              <p><span class="indent"></span>skills: <span class="token-blue" id="code-skill-count">0</span></p>
+              <p>};<span class="cursor">▌</span></p>
+            </div>
+          </div>
+          <div class="floating-note note-1">✨ Perfil técnico verificado</div>
+          <div class="floating-note note-2">📚 Aprendizaje continuo</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-band reveal">
+      <div class="container stats-grid">
+        <article class="stat-card highlight">
+          <span class="stat-label">Certificados</span>
+          <strong class="stat-number" data-target="0" id="stat-certificados">0</strong>
+          <p>Formación acreditada y verificable.</p>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Horas de formación</span>
+          <strong class="stat-number" data-target="0" id="stat-horas">0</strong>
+          <p>Aprendizaje enfocado en tecnología y desarrollo.</p>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Tecnologías</span>
+          <strong class="stat-number" data-target="0" id="stat-skills">0</strong>
+          <p>Lenguajes y herramientas que forman mi base técnica.</p>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">Proyectos</span>
+          <strong class="stat-number" data-target="0" id="stat-proyectos">0</strong>
+          <p>Aplicaciones y trabajos propios en crecimiento.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="proyectos">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <p class="section-kicker">01 / PROYECTOS</p>
+            <h2>Lo que <span class="accent-text">construyo</span>.</h2>
+            <p>Este apartado reunirá mis aplicaciones, prácticas y desarrollos personales. Servirá para mostrar cómo aplico mis conocimientos en proyectos reales.</p>
+          </div>
+          <span class="section-symbol" aria-hidden="true">↗</span>
+        </div>
+        <div id="project-filters" class="filter-list"></div>
+        <div class="project-grid" id="project-list" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section certificates-section" id="certificados">
+      <div class="container">
+        <div class="section-header reveal">
+          <div>
+            <p class="section-kicker">02 / CERTIFICADOS</p>
+            <h2>Formación que <span class="accent-text">me respalda</span>.</h2>
+            <p>Todos los certificados están organizados para que cualquier empresa pueda ver mi evolución, mis áreas de aprendizaje y validar cada acreditación.</p>
+          </div>
+          <span class="section-symbol" aria-hidden="true">✦</span>
+        </div>
+
+        <div class="certificate-tools reveal delay-1">
+          <label class="search-box" for="cert-search">
+            <span>🔎</span>
+            <input id="cert-search" type="search" placeholder="Buscar por título, entidad o temática...">
+          </label>
+          <div id="cert-filters" class="chip-list" aria-label="Filtrar certificados por categoría"></div>
+        </div>
+
+        <div class="certificate-summary reveal delay-1">
+          <span id="cert-summary-text">Mostrando todos los certificados.</span>
+        </div>
+
+        <div id="certificate-list" class="certificate-grid"></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="sobre-mi">
+      <div class="container about-grid">
+        <div class="about-card reveal">
+          <p class="section-kicker">03 / SOBRE MÍ</p>
+          <h2>Más que una lista de certificados.</h2>
+          <p id="about-text" class="about-copy">Este portafolio reúne mi formación, mis habilidades y mis próximos proyectos dentro del desarrollo de aplicaciones.</p>
+        </div>
+        <div class="skills-panel reveal delay-1">
+          <div class="skills-top">
+            <h3>Tecnologías y herramientas</h3>
+            <span class="tiny-pill">STACK ACTUAL</span>
+          </div>
+          <div id="skill-list" class="skills"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacto">
+      <div class="container">
+        <div class="contact-box reveal">
+          <div class="contact-badge">04 / CONTACTO</div>
+          <h2>¿Quieres ver mi perfil con más detalle?</h2>
+          <p>Puedes visitar mis repositorios, revisar mi formación y seguir mi evolución como desarrollador a través de este portafolio.</p>
+          <div id="contact-actions" class="contact-actions"></div>
+          <div class="contact-bottom">
+            <span>Gracias por visitar mi portafolio</span>
+            <span>© <span id="year"></span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span id="footer-brand">Portafolio.</span>
+      <span>Diseñado para mostrar mi perfil de forma clara, visual y profesional.</span>
+      <a href="#inicio">Volver arriba ↑</a>
+    </div>
+  </footer>
+</body>
+</html>

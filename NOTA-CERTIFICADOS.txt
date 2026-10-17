@@ -1,0 +1,1 @@
+Incluidos los certificados aportados el 16/10/2026. OpenWebinars se muestra mediante URL de acreditación pública, sin duplicar PDF. El certificado de Administración de Base de Datos SQL se recibió dos veces y se añadió solo una. El certificado de BIG school se muestra desde un PDF local. No se han añadido proyectos todavía.
