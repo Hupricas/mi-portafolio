@@ -108,7 +108,7 @@ window.PORTAFOLIO = {
         }
       ],
       "destacado": false,
-      "modoImagen": "normal"
+      "modoImagen": "icono"
     },
     {
       "titulo": "Kaos",
