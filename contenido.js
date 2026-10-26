@@ -56,7 +56,10 @@ window.PORTAFOLIO = {
           "url": "mailto:hugo03pricas@gmail.com?subject=Solicitud%20de%20acceso%20a%20la%20prueba%20cerrada%20de%20TOTEM&body=Hola%20Hugo,%0A%0AMe%20gustar%C3%ADa%20solicitar%20acceso%20a%20la%20prueba%20cerrada%20de%20TOTEM.%0A%0AGracias.",
           "clase": "project-link-secondary"
         }
-      ]
+      ],
+      "github": "",
+      "demo": "",
+      "modoImagen": "normal"
     },
     {
       "titulo": "FocusBlocker",
@@ -76,12 +79,41 @@ window.PORTAFOLIO = {
           "url": "descargas/focusblocker-desarrollo.apk",
           "clase": "project-link-secondary apk-download"
         }
-      ]
+      ],
+      "github": "",
+      "demo": "",
+      "galeria": [],
+      "destacado": false
+    },
+    {
+      "titulo": "Bitácora Skylander",
+      "categoria": "Prototipos Android",
+      "descripcion": "Aplicación Android para gestionar colecciones de Skylanders y seguir su progreso a lo largo de los seis juegos de la saga. Incluye gestión de vidas, modos de desafío personalizables, copias de seguridad y soporte en español e inglés.",
+      "imagen": "imagenes/proyectos/bitacoraskylander-icon.png",
+      "github": "",
+      "demo": "",
+      "tecnologias": [
+        "Java",
+        "Android",
+        "XML",
+        "SQLite",
+        "Gradle"
+      ],
+      "galeria": [],
+      "enlaces": [
+        {
+          "texto": "Descargar APK ↘",
+          "url": "descargas/bitacoraskylander-desarrollo.apk",
+          "clase": "project-link-secondary apk-download"
+        }
+      ],
+      "destacado": false,
+      "modoImagen": "normal"
     },
     {
       "titulo": "Kaos",
       "categoria": "Prototipos Android",
-      "descripcion": "Prototipo Android para generar eventos aleatorios en un juego de cartas. Permite invocar un efecto, mostrar su descripción y reiniciar la selección. Versión de desarrollo, no publicada en tiendas.",
+      "descripcion": "Prototipo Android no oficial para generar eventos aleatorios en el juego de cartas del mismo nombre. Permite invocar un efecto, mostrar su descripción y reiniciar la selección. Versión de desarrollo, no publicada en tiendas.",
       "imagen": "imagenes/proyectos/kaos-icon.png",
       "modoImagen": "icono",
       "tecnologias": [
@@ -96,64 +128,14 @@ window.PORTAFOLIO = {
           "url": "descargas/kaos-desarrollo.apk",
           "clase": "project-link-secondary apk-download"
         }
-      ]
+      ],
+      "github": "",
+      "demo": "",
+      "galeria": [],
+      "destacado": false
     }
   ],
   "certificados": [
-    {
-      "titulo": "Python desde cero",
-      "entidad": "OpenWebinars",
-      "fecha": "27/07/2026",
-      "descripcion": "Formación en programación · 12 horas.",
-      "archivo": "https://openwebinars.net/cert/1ROb",
-      "tipo": "Verificar en OpenWebinars",
-      "imagen": "imagenes/certificados/certificado-01.webp"
-    },
-    {
-      "titulo": "Curso de fundamentos de Redes: TCP/IP",
-      "entidad": "OpenWebinars",
-      "fecha": "27/07/2026",
-      "descripcion": "Formación en redes · 12 horas.",
-      "archivo": "https://openwebinars.net/cert/0Oh3",
-      "tipo": "Verificar en OpenWebinars",
-      "imagen": "imagenes/certificados/certificado-02.webp"
-    },
-    {
-      "titulo": "PHP: Fundamentos",
-      "entidad": "OpenWebinars",
-      "fecha": "16/07/2026",
-      "descripcion": "Formación en programación · 9 horas.",
-      "archivo": "https://openwebinars.net/cert/FYqk",
-      "tipo": "Verificar en OpenWebinars",
-      "imagen": "imagenes/certificados/certificado-03.webp"
-    },
-    {
-      "titulo": "Especialización en JavaScript: Asincronía, Prototipos y Clases",
-      "entidad": "OpenWebinars",
-      "fecha": "25/07/2026",
-      "descripcion": "Formación en programación · 8 horas.",
-      "archivo": "https://openwebinars.net/cert/SLAG",
-      "tipo": "Verificar en OpenWebinars",
-      "imagen": "imagenes/certificados/certificado-04.webp"
-    },
-    {
-      "titulo": "Iniciación al desarrollo con IA",
-      "entidad": "BIG school",
-      "fecha": "13/03/2026",
-      "descripcion": "Jornadas formativas «Desarrollo con IA: de 0 a Producción» · 6 horas.",
-      "archivo": "certificados/iniciacion-desarrollo-ia-big-school.pdf",
-      "tipo": "Ver PDF",
-      "imagen": "imagenes/certificados/certificado-05.webp"
-    },
-    {
-      "titulo": "Liderazgo intercultural: Claves para la gestión de equipos multiculturales",
-      "entidad": "OpenWebinars",
-      "fecha": "22/07/2026",
-      "descripcion": "Formación en habilidades profesionales · 7 horas.",
-      "archivo": "https://openwebinars.net/cert/rPJe",
-      "tipo": "Verificar en OpenWebinars",
-      "imagen": "imagenes/certificados/certificado-06.webp"
-    },
     {
       "titulo": "Curso Crea tu primera aplicación en Android",
       "entidad": "OpenWebinars",
@@ -162,15 +144,6 @@ window.PORTAFOLIO = {
       "archivo": "https://openwebinars.net/cert/TAsa",
       "tipo": "Verificar en OpenWebinars",
       "imagen": "imagenes/certificados/certificado-07.webp"
-    },
-    {
-      "titulo": "Curso de Excel: Funciones avanzadas",
-      "entidad": "OpenWebinars",
-      "fecha": "22/07/2026",
-      "descripcion": "Formación en ofimática · 5 horas.",
-      "archivo": "https://openwebinars.net/cert/bDf1",
-      "tipo": "Verificar en OpenWebinars",
-      "imagen": "imagenes/certificados/certificado-08.webp"
     },
     {
       "titulo": "Administración de Base de Datos SQL",
@@ -182,40 +155,49 @@ window.PORTAFOLIO = {
       "imagen": "imagenes/certificados/certificado-09.webp"
     },
     {
-      "titulo": "Liderazgo intercultural: Aplicación en contextos multiculturales",
+      "titulo": "Especialización en JavaScript: Asincronía, Prototipos y Clases",
       "entidad": "OpenWebinars",
-      "fecha": "22/07/2026",
-      "descripcion": "Formación en habilidades profesionales · 3 horas.",
-      "archivo": "https://openwebinars.net/cert/bOqQ",
+      "fecha": "25/07/2026",
+      "descripcion": "Formación en programación · 8 horas.",
+      "archivo": "https://openwebinars.net/cert/SLAG",
       "tipo": "Verificar en OpenWebinars",
-      "imagen": "imagenes/certificados/certificado-10.webp"
+      "imagen": "imagenes/certificados/certificado-04.webp"
     },
     {
-      "titulo": "Curso de Excel: Gráficos",
+      "titulo": "PHP: Fundamentos",
       "entidad": "OpenWebinars",
-      "fecha": "27/07/2026",
-      "descripcion": "Formación en ofimática · 2 horas.",
-      "archivo": "https://openwebinars.net/cert/EPGH",
+      "fecha": "16/07/2026",
+      "descripcion": "Formación en programación · 9 horas.",
+      "archivo": "https://openwebinars.net/cert/FYqk",
       "tipo": "Verificar en OpenWebinars",
-      "imagen": "imagenes/certificados/certificado-11.webp"
+      "imagen": "imagenes/certificados/certificado-03.webp"
     },
     {
-      "titulo": "Feedback de Calidad: Crítica vs Feedback",
+      "titulo": "Curso de fundamentos de Redes: TCP/IP",
       "entidad": "OpenWebinars",
       "fecha": "27/07/2026",
-      "descripcion": "Formación en habilidades profesionales · 2 horas.",
-      "archivo": "https://openwebinars.net/cert/6r1q",
+      "descripcion": "Formación en redes · 12 horas.",
+      "archivo": "https://openwebinars.net/cert/0Oh3",
       "tipo": "Verificar en OpenWebinars",
-      "imagen": "imagenes/certificados/certificado-12.webp"
+      "imagen": "imagenes/certificados/certificado-02.webp"
     },
     {
-      "titulo": "Fundamentos de Igualdad",
+      "titulo": "Python desde cero",
       "entidad": "OpenWebinars",
       "fecha": "27/07/2026",
-      "descripcion": "Formación en habilidades profesionales · 2 horas.",
-      "archivo": "https://openwebinars.net/cert/8BXD",
+      "descripcion": "Formación en programación · 12 horas.",
+      "archivo": "https://openwebinars.net/cert/1ROb",
       "tipo": "Verificar en OpenWebinars",
-      "imagen": "imagenes/certificados/certificado-13.webp"
+      "imagen": "imagenes/certificados/certificado-01.webp"
+    },
+    {
+      "titulo": "Introducción al Prompt Engineering",
+      "entidad": "OpenWebinars",
+      "fecha": "16/07/2026",
+      "descripcion": "Formación en inteligencia artificial · 1 hora.",
+      "archivo": "https://openwebinars.net/cert/yfn2",
+      "tipo": "Verificar en OpenWebinars",
+      "imagen": "imagenes/certificados/certificado-18.webp"
     },
     {
       "titulo": "NotebookLM para empresas",
@@ -227,6 +209,15 @@ window.PORTAFOLIO = {
       "imagen": "imagenes/certificados/certificado-14.webp"
     },
     {
+      "titulo": "Iniciación al desarrollo con IA",
+      "entidad": "BIG school",
+      "fecha": "13/03/2026",
+      "descripcion": "Jornadas formativas «Desarrollo con IA: de 0 a Producción» · 6 horas.",
+      "archivo": "certificados/iniciacion-desarrollo-ia-big-school.pdf",
+      "tipo": "Ver PDF",
+      "imagen": "imagenes/certificados/certificado-05.webp"
+    },
+    {
       "titulo": "Todo lo que puedes hacer con Copilot Free",
       "entidad": "OpenWebinars",
       "fecha": "25/07/2026",
@@ -234,6 +225,24 @@ window.PORTAFOLIO = {
       "archivo": "https://openwebinars.net/cert/54Vk",
       "tipo": "Verificar en OpenWebinars",
       "imagen": "imagenes/certificados/certificado-15.webp"
+    },
+    {
+      "titulo": "Curso de Excel: Funciones avanzadas",
+      "entidad": "OpenWebinars",
+      "fecha": "22/07/2026",
+      "descripcion": "Formación en ofimática · 5 horas.",
+      "archivo": "https://openwebinars.net/cert/bDf1",
+      "tipo": "Verificar en OpenWebinars",
+      "imagen": "imagenes/certificados/certificado-08.webp"
+    },
+    {
+      "titulo": "Curso de Excel: Gráficos",
+      "entidad": "OpenWebinars",
+      "fecha": "27/07/2026",
+      "descripcion": "Formación en ofimática · 2 horas.",
+      "archivo": "https://openwebinars.net/cert/EPGH",
+      "tipo": "Verificar en OpenWebinars",
+      "imagen": "imagenes/certificados/certificado-11.webp"
     },
     {
       "titulo": "Fomenta la cohesión de tu equipo",
@@ -245,6 +254,15 @@ window.PORTAFOLIO = {
       "imagen": "imagenes/certificados/certificado-16.webp"
     },
     {
+      "titulo": "Feedback de Calidad: Crítica vs Feedback",
+      "entidad": "OpenWebinars",
+      "fecha": "27/07/2026",
+      "descripcion": "Formación en habilidades profesionales · 2 horas.",
+      "archivo": "https://openwebinars.net/cert/6r1q",
+      "tipo": "Verificar en OpenWebinars",
+      "imagen": "imagenes/certificados/certificado-12.webp"
+    },
+    {
       "titulo": "Gestión de tiempo: ¿Cómo hacer más y estresarnos menos?",
       "entidad": "OpenWebinars",
       "fecha": "22/07/2026",
@@ -254,13 +272,31 @@ window.PORTAFOLIO = {
       "imagen": "imagenes/certificados/certificado-17.webp"
     },
     {
-      "titulo": "Introducción al Prompt Engineering",
+      "titulo": "Liderazgo intercultural: Claves para la gestión de equipos multiculturales",
       "entidad": "OpenWebinars",
-      "fecha": "16/07/2026",
-      "descripcion": "Formación en inteligencia artificial · 1 hora.",
-      "archivo": "https://openwebinars.net/cert/yfn2",
+      "fecha": "22/07/2026",
+      "descripcion": "Formación en habilidades profesionales · 7 horas.",
+      "archivo": "https://openwebinars.net/cert/rPJe",
       "tipo": "Verificar en OpenWebinars",
-      "imagen": "imagenes/certificados/certificado-18.webp"
+      "imagen": "imagenes/certificados/certificado-06.webp"
+    },
+    {
+      "titulo": "Liderazgo intercultural: Aplicación en contextos multiculturales",
+      "entidad": "OpenWebinars",
+      "fecha": "22/07/2026",
+      "descripcion": "Formación en habilidades profesionales · 3 horas.",
+      "archivo": "https://openwebinars.net/cert/bOqQ",
+      "tipo": "Verificar en OpenWebinars",
+      "imagen": "imagenes/certificados/certificado-10.webp"
+    },
+    {
+      "titulo": "Fundamentos de Igualdad",
+      "entidad": "OpenWebinars",
+      "fecha": "27/07/2026",
+      "descripcion": "Formación en habilidades profesionales · 2 horas.",
+      "archivo": "https://openwebinars.net/cert/8BXD",
+      "tipo": "Verificar en OpenWebinars",
+      "imagen": "imagenes/certificados/certificado-13.webp"
     }
   ]
 };
