@@ -62,6 +62,36 @@ window.PORTAFOLIO = {
       "modoImagen": "normal"
     },
     {
+      "titulo": "Branchly",
+      "categoria": "Prototipos Android",
+      "descripcion": "Aplicación Android que permite crear cuestionarios interactivos con árboles de decisiones personalizados, generando recordatorios según las respuestas del usuario. Incluye programación flexible, calendario de actividades, estadísticas y copias de seguridad.",
+      "imagen": "imagenes/proyectos/branchly.png",
+      "github": "",
+      "demo": "",
+      "tecnologias": [
+        "Kotlin",
+        "Android SDK",
+        "Jetpack Compose",
+        "Material Design 3",
+        "Room",
+        "SQLite",
+        "Kotlin Coroutines",
+        "Gradle",
+        "JSON",
+        "Android Studio"
+      ],
+      "galeria": [],
+      "enlaces": [
+        {
+          "texto": "Descargar APK ↘",
+          "url": "descargas/branchly.apk",
+          "clase": "apk-download"
+        }
+      ],
+      "destacado": false,
+      "modoImagen": "icono"
+    },
+    {
       "titulo": "FocusBlocker",
       "categoria": "Prototipos Android",
       "descripcion": "Aplicación Android en desarrollo para bloquear temporalmente otras aplicaciones, crear grupos de bloqueo y ayudar a mantener la concentración. Algunas funciones requieren habilitar el servicio de accesibilidad con conocimiento del usuario.",
