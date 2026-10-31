@@ -92,6 +92,37 @@ window.PORTAFOLIO = {
       "modoImagen": "icono"
     },
     {
+      "titulo": "No More Spam",
+      "categoria": "Prototipos Android",
+      "descripcion": "Aplicación Android que bloquea automáticamente llamadas no deseadas mediante filtros personalizables, listas de excepciones y detección de llamadas repetidas. Incluye historial, estadísticas, simulador de llamadas y un widget para consultar los números bloqueados, priorizando la privacidad y el funcionamiento sin conexión.",
+      "imagen": "imagenes/proyectos/no_more_spam_icono.png",
+      "github": "",
+      "demo": "",
+      "tecnologias": [
+        "Java",
+        "Kotlin",
+        "Android SDK",
+        "Jetpack Compose",
+        "Material Design 3",
+        "SQLite",
+        "DataStore",
+        "CallScreeningService",
+        "App Widgets",
+        "JSON",
+        "Gradle"
+      ],
+      "galeria": [],
+      "enlaces": [
+        {
+          "texto": "Descargar APK ↘",
+          "url": "descargas/nomorespam.apk",
+          "clase": "apk-download"
+        }
+      ],
+      "destacado": false,
+      "modoImagen": "icono"
+    },
+    {
       "titulo": "FocusBlocker",
       "categoria": "Prototipos Android",
       "descripcion": "Aplicación Android en desarrollo para bloquear temporalmente otras aplicaciones, crear grupos de bloqueo y ayudar a mantener la concentración. Algunas funciones requieren habilitar el servicio de accesibilidad con conocimiento del usuario.",
